@@ -9,7 +9,7 @@
 
 "use strict";
 
-window.onload = function () {
+window.addEventListener('load', function() {
   function a(a) {
       for (e = 0; e < d.length; e++) d[e].classList.remove("popover-open");
   }
@@ -21,4 +21,4 @@ window.onload = function () {
   var c = document.querySelectorAll("[data-popover]"), d = document.querySelectorAll(".popover"), e = void 0;
   for (e = 0; e < c.length; e++) c[e].addEventListener("click", b);
   document.addEventListener("click", a);
-};
+});
