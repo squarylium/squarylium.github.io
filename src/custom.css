@@ -37,7 +37,15 @@ body {
 }
 
 .navigation .navigation-list {
-  margin-right: 0;
+  margin-right: 2rem;
+}
+
+.popover {
+  min-width: initial;
+}
+
+.popover .popover-link {
+  padding: .8rem 2rem;
 }
 
 .lum-lightbox {
