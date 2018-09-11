@@ -10,22 +10,6 @@
   src: url("kaiso-next-b-web.woff")  format('woff');
 }
 
-@media (min-width: 40rem){
-  .navigation .title {
-    font-size: 2.5rem;
-  }
-}
-
-@media (max-width: 460px) {
-  .lum-lightbox-image-wrapper {
-    display: table-cell;
-  }
-  .lum-lightbox-inner img {
-    max-height: 100%;
-    max-width: 100%;
-  }
-}
-
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
 }
@@ -34,6 +18,12 @@ body {
   font-family: "kaiso-next-b-web";
   font-size: 2rem;
   color: #9b4dca;
+}
+
+@media (min-width: 40rem){
+  .navigation .title {
+    font-size: 2.5rem;
+  }
 }
 
 .navigation .navigation-list {
@@ -46,6 +36,21 @@ body {
 
 .popover .popover-link {
   padding: .8rem 2rem;
+}
+
+.footer .small {
+  font-size: 80%;
+  opacity: 0.8;
+}
+
+@media (max-width: 460px) {
+  .lum-lightbox-image-wrapper {
+    display: table-cell;
+  }
+  .lum-lightbox-inner img {
+    max-height: 100%;
+    max-width: 100%;
+  }
 }
 
 .lum-lightbox {
