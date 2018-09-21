@@ -57,6 +57,10 @@ body {
   z-index: 1;
 }
 
+.lum-lightbox-caption {
+  line-height: 1.8;
+}
+
 #publication img {
   border: 1px #c79ce1 solid;
 }
