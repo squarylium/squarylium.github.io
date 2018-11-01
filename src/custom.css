@@ -64,3 +64,9 @@ body {
 #publication img {
   border: 1px #c79ce1 solid;
 }
+
+@media (max-width: 460px) {
+  a.luminous {
+    pointer-events: none;
+  }
+}
