@@ -38,6 +38,11 @@ body {
   padding: .8rem 2rem;
 }
 
+.description {
+  text-align: justify;
+  text-justify: inter-ideograph;  
+}
+
 .footer .small {
   font-size: 80%;
   opacity: 0.8;
